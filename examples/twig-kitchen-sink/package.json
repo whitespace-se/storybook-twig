@@ -1,0 +1,19 @@
+{
+  "name": "twig-kitchen-sink",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 9001"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@storybook/addon-essentials": "^6.0.21",
+    "@storybook/twig": "*",
+    "chalk": "^3.0.0",
+    "shelljs": "^0.8.4"
+  }
+}

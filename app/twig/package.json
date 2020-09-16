@@ -1,0 +1,56 @@
+{
+  "name": "@storybook/twig",
+  "version": "6.0.21",
+  "description": "Storybook for Twig: View Twig components in isolation with hot reloading.",
+  "keywords": [
+    "storybook",
+    "twig"
+  ],
+  "homepage": "https://github.com/storybookjs/twig/app/twig",
+  "bugs": {
+    "url": "https://github.com/storybookjs/twig/issues"
+  },
+  "repository": {
+    "type": "git",
+    "directory": "app/twig"
+  },
+  "license": "MIT",
+  "files": [
+    "bin/**/*",
+    "dist/**/*",
+    "README.md",
+    "*.js",
+    "*.d.ts"
+  ],
+  "main": "dist/client/index.js",
+  "typings": "dist/client/index.d.ts",
+  "bin": {
+    "build-storybook": "./bin/build.js",
+    "start-storybook": "./bin/index.js",
+    "storybook-server": "./bin/index.js"
+  },
+  "scripts": {
+    "prepare": "node ../../scripts/prepare.js"
+  },
+  "dependencies": {
+    "@jfrk/twig-loader": "^1.0.0",
+    "@storybook/addons": "6.0.21",
+    "@storybook/core": "6.0.21",
+    "@types/webpack-env": "^1.15.2",
+    "core-js": "^3.0.1",
+    "global": "^4.3.2",
+    "regenerator-runtime": "^0.13.7",
+    "ts-dedent": "^1.1.1"
+  },
+  "peerDependencies": {
+    "@babel/core": "*",
+    "react": "*",
+    "react-dom": "*"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
