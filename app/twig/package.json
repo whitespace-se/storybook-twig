@@ -6,9 +6,9 @@
     "storybook",
     "twig"
   ],
-  "homepage": "https://github.com/storybookjs/twig/app/twig",
+  "homepage": "https://github.com/whitespace-se/storybook-twig",
   "bugs": {
-    "url": "https://github.com/storybookjs/twig/issues"
+    "url": "https://github.com/whitespace-se/storybook-twig/issues"
   },
   "repository": {
     "type": "git",
