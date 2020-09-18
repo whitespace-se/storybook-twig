@@ -5,4 +5,4 @@ export default {
   title: 'Welcome',
 };
 
-export const WelcomeStory = () => 'yo';
+export const WelcomeStory = () => Welcome();
