@@ -13,7 +13,7 @@
   "devDependencies": {
     "@storybook/addon-essentials": "^6.0.21",
     "@storybook/core": "^6.0.21",
-    "@storybook/twig": "*",
+    "@whitespace/storybook-twig": "*",
     "chalk": "^3.0.0",
     "shelljs": "^0.8.4"
   }

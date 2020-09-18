@@ -1,6 +1,6 @@
 {
-  "name": "@storybook/twig",
-  "version": "6.0.21",
+  "name": "@whitespace/storybook-twig",
+  "version": "1.0.0",
   "description": "Storybook for Twig: View Twig components in isolation with hot reloading.",
   "keywords": [
     "storybook",
