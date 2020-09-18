@@ -1,17 +1,17 @@
 import { document, Node } from 'global';
 import dedent from 'ts-dedent';
-import { RenderMainArgs } from './types';
+import { RenderContext } from './types';
 
 const rootElement = document.getElementById('root');
 
 export default function renderMain({
   storyFn,
-  selectedKind,
-  selectedStory,
+  kind,
+  name,
   showMain,
   showError,
   forceRender,
-}: RenderMainArgs) {
+}: RenderContext) {
   const element = storyFn();
 
   showMain();
