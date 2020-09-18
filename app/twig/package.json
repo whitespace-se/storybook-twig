@@ -34,8 +34,8 @@
   },
   "dependencies": {
     "@jfrk/twig-loader": "^1.0.0",
-    "@storybook/addons": "6.0.21",
-    "@storybook/core": "6.0.21",
+    "@storybook/addons": "^6.0.21",
+    "@storybook/core": "^6.0.21",
     "@types/webpack-env": "^1.15.2",
     "core-js": "^3.0.1",
     "global": "^4.3.2",
