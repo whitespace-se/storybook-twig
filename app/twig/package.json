@@ -33,7 +33,7 @@
     "prepare": "node ../../scripts/prepare.js"
   },
   "dependencies": {
-    "@jfrk/twig-loader": "1.1.0-beta.0",
+    "@jfrk/twig-loader": "^1.1.0",
     "@storybook/addons": "^6.0.21",
     "@storybook/core": "^6.0.21",
     "@types/webpack-env": "^1.15.2",
